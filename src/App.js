@@ -1,22 +1,16 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './components/Home';
-import Navbar from './components/Navbar';
-import Contact from './components/Contact';
-import About from './components/About';
+// import Navbar from './components/Navbar';
+// import Contact from './components/Contact';
+// import About from './components/About';
 
 function App() {
+  const userName = "Aryan";
+  const userAge = 52;
   return (
     <div>
-    <BrowserRouter>
-     <Navbar /> 
-      <Routes>
-       <Route path="/" element={ <Home />}></Route>
-       <Route path="/Home" element={ <Home />}></Route>
-       <Route path="/About" element={ <About />}></Route>
-       <Route path="/Contact" element={ <Contact />}></Route>
-      </Routes>
-    </BrowserRouter>
+      <Home name={userName} age={userAge} />
     </div>
   );
 }
