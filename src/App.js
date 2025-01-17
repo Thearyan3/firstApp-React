@@ -1,6 +1,6 @@
 import './App.css';
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
-import {ThemeSwitcher} from './components/ThemeSwitcher';
+import ThemeSwitcher from './components/ThemeSwitcher';
 import {ThemeProvider} from './components/ThemeContext';
 
 function App() {
