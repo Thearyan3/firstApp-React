@@ -2,11 +2,10 @@ import React from 'react';
 // import Card from 'react-bootstrap/Card';
 // import ListGroup from 'react-bootstrap/ListGroup';
 
-const Home = (props) => {
+const Home= () => {
   return (
     <div>
-        <p>{props.name}</p>
-        <p>{props.age}</p>
+        
     </div>
   )
 }

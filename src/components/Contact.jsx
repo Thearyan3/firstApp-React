@@ -8,7 +8,7 @@ function WithHeaderExample() {
     <div className="Contact">
       <h2 className="Heading-1">Let's Talk</h2>
         <p className="para-1">Every project starts with a chat. Joven leads to our client conversations <br></br> and will be happy to discuss your project. He will also pull in the right <br></br> people from the team when needed.  </p>
-          <button className="but-1"><h4>Tell us about your project</h4></button>
+          <button className="but-1"><h6>Tell us about your project</h6></button>
     </div>
     <div className='settle'>
       <div className='info'>

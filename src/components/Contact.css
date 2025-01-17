@@ -1,65 +1,72 @@
-*{
-    margin: 0px; 
-    padding: 0px;
+* {
+  margin: 0px; 
+  padding: 0px;
 }
 
-.but-1{
-    background-color: rgba(0, 255, 72, 0.601);
-    color: white;
-    padding: 5px;
-    border: none;
-    border-radius: 3px;
+.but-1 {
+  background-color: rgba(0, 255, 72, 0.601);
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
 }
 
-.M-div{
-    padding: 20px;
-    background-color: #193065;
-    color: white;
-    display: flex;
-    flex: row;
-    justify-content: space-around;
-    text-align: left;
-    height: 200px;
+.M-div {
+  padding: 20px;
+  background-color: #193065;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: left;
+  height: 400px;
+  font-size: 18px; /* Increase the font size here */
 }
 
-.Heading-1{
-    margin-bottom: 10px;
+.Contact{
+  margin-top: 50px;
 }
-.para-1{
-    margin-bottom: 8.5px;
-    font-size: xx-small;
-    line-height: 15px;
+
+.Heading-1 {
+  margin-bottom: 10px;
+  font-size: 24px; /* Adjust font size of Heading if needed */
+}
+
+.para-1 {
+  margin-bottom: 10px;
+  line-height: 20px; /* Adjust line-height for better readability */
+  font-size: 16px; /* Adjust font size */
 }
 
 .settle {
-    display: inline-block; 
-  }
-  
-  .info {
-    margin-bottom: 30px;
-    display: flex;
-    font-size: x-small;
-    line-height: 30px;
-    font-weight: 600;
-  }
+  display: inline-block; 
+  margin-top: 50px;
+}
 
-  .info-head{
-    margin-right: 45px;
-  }
- 
-  .info-content{
-    color: rgb(0, 128, 255);
-  }
+.info {
+  margin-bottom: 30px;
+  display: flex;
+  font-size: 16px; /* Increase font size for .info */
+  line-height: 30px;
+  font-weight: 600;
+}
 
-  .lineh{
-    line-height: 20px;
-  }
+.info-head {
+  margin-right: 45px;
+}
 
-  .images {
-    display: flex; 
-    gap: 10px; 
-    margin-left: 50px;
-    font-size: larger;
-    justify-content: space-between;
-  }
-  
+.info-content {
+  color: rgb(0, 128, 255);
+}
+
+.lineh {
+  line-height: 20px;
+}
+
+.images {
+  display: flex; 
+  gap: 10px; 
+  margin-left: 50px;
+  justify-content: space-between;
+  font-size: 30px;
+}
