@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Contact.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faFontAwesome, faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter, faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function WithHeaderExample() {
   return (<div className="M-div">
@@ -24,10 +24,10 @@ function WithHeaderExample() {
         </span>
       </div>
       <div className='images'>
-    <FontAwesomeIcon icon={faTwitter}/>
-    <FontAwesomeIcon icon={faFacebook} />
-    <FontAwesomeIcon icon={faInstagram} />
-    <FontAwesomeIcon icon={faLinkedin} />
+      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
       </div>
     </div>
   </div>

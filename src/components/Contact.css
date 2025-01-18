@@ -12,8 +12,8 @@
 }
 
 .M-div {
+  background: linear-gradient(135deg, #a8c0ff 0%, #3f2b96 100%);
   padding: 20px;
-  background-color: #193065;
   color: white;
   display: flex;
   flex-direction: row;
@@ -68,5 +68,33 @@
   gap: 10px; 
   margin-left: 50px;
   justify-content: space-between;
-  font-size: 30px;
 }
+
+/* Contact.css */
+
+.images a {
+  margin: 0 10px;
+  font-size: 40px;  /* Adjust size if needed */
+  transition: color 0.3s ease;
+}
+
+.images a:hover {
+  opacity: 0.8;  /* Slight fade on hover */
+}
+
+.images a:nth-child(1) { /* Twitter */
+  color: #1DA1F2; /* Twitter's blue */
+}
+
+.images a:nth-child(2) { /* Facebook */
+  color: #1877F2; /* Facebook's blue */
+}
+
+.images a:nth-child(3) { /* Instagram */
+  color: #E4405F; /* Instagram's pinkish-red */
+}
+
+.images a:nth-child(4) { /* LinkedIn */
+  color: #0A66C2; /* LinkedIn's blue */
+}
+
