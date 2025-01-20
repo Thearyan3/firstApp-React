@@ -1,15 +1,18 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Routes, Route} from "react-router-dom";
-import Contact  from "./components/Contact";
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import { BrowserRouter, Routes, Route} from "react-router-dom";
+// import Contact  from "./components/Contact";
 import Home from "./components/Home";
-import About from "./components/About";
-import Navbar from "./components/Navbar";
+// import About from "./components/About";
+// import Navbar from "./components/Navbar";
 
 function App() {
+  const userName = "Aryan";
+  const userAge = 20;
   return (
     <>
-      <BrowserRouter>
+    <Home name={userName} age={userAge} />
+      {/* { <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />}/>
@@ -17,7 +20,7 @@ function App() {
         <Route path="/about" element={<About />}/>
         <Route path="/contact" element={<Contact />}/>
       </Routes>
-        </BrowserRouter>
+        </BrowserRouter> } */}
     </>
   );
 }
